@@ -11,6 +11,8 @@ add_subdirectory(external/glfw)
 
 include_directories(external/glfw/include)
 include_directories(external/imgui)
+include_directories(src)
+include_directories(external/glad/include/)
 
 file(GLOB_RECURSE VP_SOURCE src/*.c src/*.cpp src/*.h src/*.hpp)
 
